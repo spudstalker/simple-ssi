@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport"
+		content="width=device-width,initial-scale=1" />
+		<link rel="stylesheet" type="text/css" href=
+		"/css/normalize.7.0.0.css" />
+		<link rel="stylesheet" type="text/css" href="/css/style.css" />
+		<!--# if expr="$containsmath" -->
+		<link rel="stylesheet" type="text/css"
+		href="/css/katex.nofonts.0.9.0.a2.min.css" />
+		<!--# endif -->
+		<title>
+			Simple SSI Site
+			<!--# if expr="$title" -->
+			&bull;
+			<!--# echo var="title" -->
+			<!--# endif -->
+		</title>
+	</head>
+	<body>
+		<header>
+			<h1>
+				Simple SSI Site
+			</h1>
+			<nav class="top" role="navigation">
+				<ul>
+					<li>
+						<a class="navLink" href="/">Home</a>
+					</li>
+					<li>
+						<a class="navLink" href="/pages/test/">Test</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main>
